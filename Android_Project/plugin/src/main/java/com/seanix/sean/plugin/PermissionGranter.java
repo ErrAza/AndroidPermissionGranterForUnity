@@ -69,6 +69,7 @@ public class PermissionGranter extends Fragment {
     {
         requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
                 REQUEST_CODE_STORAGE_WRITE);
+
     }
 
     @Override
@@ -76,11 +77,9 @@ public class PermissionGranter extends Fragment {
         switch (requestCode) {
             case REQUEST_CODE_CAMERA:
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(getActivity(), "CAMERA Permission Granted", Toast.LENGTH_SHORT)
-                            .show();
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
                 } else {
-                    Toast.makeText(getActivity(), "CAMERA Permission Denied", Toast.LENGTH_SHORT)
-                            .show();
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
                 }
                 break;
             case REQUEST_CODE_CONTACTS_READ:

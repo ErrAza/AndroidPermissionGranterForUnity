@@ -1,7 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Runtime.InteropServices.ComTypes;
+using UnityEngine;
 
 namespace SeanAndroidPlugin
 {
+    // I would highly recommend NOT modifying anything in here, as this is specifically built to act as the middleman between Unity and Android. Java and C# Proxy.
+
     public class PermissionGranter_Android
     {
         private AndroidJavaClass _class;
@@ -21,46 +24,6 @@ namespace SeanAndroidPlugin
             }
 
             Instance.Call("requestCameraPermission");
-        }
-
-        public void AskForContactsPermission_Read()
-        {
-            if (_class == null)
-            {
-                Initialize();
-            }
-
-            Instance.Call("requestContactsPermissionRead");
-        }
-
-        public void AskForContactsPermission_Write()
-        {
-            if (_class == null)
-            {
-                Initialize();
-            }
-
-            Instance.Call("requestContactsPermissionWrite");
-        }
-
-        public void AskForStoragePermission_Read()
-        {
-            if (_class == null)
-            {
-                Initialize();
-            }
-
-            Instance.Call("requestStoragePermissionRead");
-        }
-
-        public void AskForStoragePermission_Write()
-        {
-            if (_class == null)
-            {
-                Initialize();
-            }
-
-            Instance.Call("requestStoragePermissionWrite");
         }
 
     }

@@ -6,25 +6,44 @@ namespace SeanAndroidPlugin
     public class UnityInterface : MonoBehaviour
     {
         //Use this class as your means of interacting with the plugin to ensure compatibility.
+        // Override where necessary
 
         public PermissionGranter_Android Granter;
 
-        public event UnityAction<bool> CompatibiltyCallback;
-
+        // Main function to request camera permission
+        // Check the PermissionCallback for the result.
         public void Ask()
         {
-            var success = IsCompatible();
-
-            if (success)
+            if (IsCompatible())
             {
                 RequestCameraPermission();
             }
+        }
 
-            OnCompatibiltyCallback(success);
+        // This is the callback from the java class and function Ask, it specifically fires off this method with a string result from Ask.
+        // 'message' will either return as 'Granted' or 'Denied' after calling Ask.
+        public void PermissionCallback(string message)
+        {
+            Debug.Log(message);
+
+            if (message.Contains("Granted"))
+            {
+                //Sweet, Do Something
+            }
+            else if (message.Contains("Denied"))
+            {
+                //User was a moron, Do Something
+            }
+            else
+            {
+                // Message is blank or something else, indicating a deeper problem, and thus involving panic. => highly unlikely. Implement  fallback in case, but still highly unlikely.
+            }
         }
 
         private static bool IsCompatible()
         {
+            // If its not compatible, don't try, the device OS is too old to even have runtime permission granting.
+
             var os = SystemInfo.operatingSystem;
 
             bool compatible;
@@ -57,45 +76,5 @@ namespace SeanAndroidPlugin
             Granter.AskForCameraPermission();
         }
 
-        private void RequestContactsPermission_Read()
-        {
-            if (Granter == null)
-                Granter = new PermissionGranter_Android();
-
-            Granter.AskForContactsPermission_Read();
-        }
-
-        private void RequestContactsPermission_Write()
-        {
-            if (Granter == null)
-                Granter = new PermissionGranter_Android();
-
-            Granter.AskForContactsPermission_Write();
-        }
-
-        private void RequestStoragePermission_Read()
-        {
-            if (Granter == null)
-                Granter = new PermissionGranter_Android();
-
-            Granter.AskForStoragePermission_Read();
-        }
-
-        private void RequestStoragePermission_Write()
-        {
-            if (Granter == null)
-                Granter = new PermissionGranter_Android();
-
-            Granter.AskForStoragePermission_Write();
-        }
-
-
-        protected virtual void OnCompatibiltyCallback(bool arg0)
-        {
-            if (CompatibiltyCallback != null)
-            {
-                CompatibiltyCallback(arg0);
-            }
-        }
     }
 }
