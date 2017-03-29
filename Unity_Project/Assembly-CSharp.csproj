@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6B979B08-9C94-B12B-B500-3E11D71733AA}</ProjectGuid>
+    <ProjectGuid>{96751507-7229-51C8-E6D7-43BB1A23789B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,8 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\SeanAndroidPlugin\PermissionGranter_Android.cs" />
-     <Compile Include="Assets\SeanAndroidPlugin\UnityInterface.cs" />
+     <Compile Include="Assets\Sean&apos;sAndroidPermissions\Scripts\PermissionGranterProxy.cs" />
+     <Compile Include="Assets\Sean&apos;sAndroidPermissions\Scripts\UnityInterface.cs" />
+     <Compile Include="Assets\Test.cs" />
+     <None Include="Assets\Sean&apos;sAndroidPermissions\Docs\Guide.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity-5.5.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

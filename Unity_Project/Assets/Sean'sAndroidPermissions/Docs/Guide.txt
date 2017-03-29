@@ -1,0 +1,33 @@
+Quick And Easy Guide on how to make use of this plugin:
+
+	Contents of the plugin:
+
+	1. Documentation with regards to the plugin, and information regarding runtime permissions on Android.
+
+	2. Source AAR.
+
+	3. A prefabbed object named "Granter" to make it easier to use.
+
+	4. C# scripts to help you get started.
+
+	How-to:
+
+	1. Import the package.
+
+	2. Insert the prefab "Granter" into your scene.
+
+	3. Observe the sample script attached (UnityInterface.cs) for a basic C# Unity implementation of how to go about interacting with the plugin.
+
+	Notes:
+
+	1. If your AndroidManifest.xml file does not specify any permissions up front, requesting a permission at runtime will yield no result and effectively do nothing. See the AndroidHelp.pdf guide on how to get started with your AndroidManifest.
+
+	2. Runtime permissions are available to API levels 23 and above. That means Android 6.0 devices and above.
+
+	3. I wrote this plugin as a solution to something I needed, and to which I struggled to find any real solutions without some work. This is purely in my spare time, and as I find more time, I will gladly expand functionality. But for now, I've included the most common permissions requested in a Unity Application, that is;
+
+		- Camera
+		- Contacts (Read / Write)
+		- Storage (Read / Write)
+		- Location (Fine / Coarse)
+

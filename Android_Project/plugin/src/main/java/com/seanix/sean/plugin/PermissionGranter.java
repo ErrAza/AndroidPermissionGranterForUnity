@@ -24,6 +24,8 @@ public class PermissionGranter extends Fragment {
     final private int REQUEST_CODE_CONTACTS_WRITE = 3;
     final private int REQUEST_CODE_STORAGE_READ = 4;
     final private int REQUEST_CODE_STORAGE_WRITE = 5;
+    final private int REQUEST_CODE_LOCATION_FINE = 6;
+    final private int REQUEST_CODE_LOCATION_COARSE = 7;
 
     String gameObjectName;
 
@@ -72,6 +74,18 @@ public class PermissionGranter extends Fragment {
 
     }
 
+    public void requestLocationFine()
+    {
+        requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
+                REQUEST_CODE_LOCATION_FINE);
+    }
+
+    public void requestLocationCoarse()
+    {
+        requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},
+                REQUEST_CODE_LOCATION_COARSE);
+    }
+
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         switch (requestCode) {
@@ -84,38 +98,37 @@ public class PermissionGranter extends Fragment {
                 break;
             case REQUEST_CODE_CONTACTS_READ:
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(getActivity(), "READ_CONTACTS Permission Granted", Toast.LENGTH_SHORT)
-                            .show();
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
                 } else {
-                    Toast.makeText(getActivity(), "READ_CONTACTS Permission Denied", Toast.LENGTH_SHORT)
-                            .show();
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
                 }
                 break;
             case REQUEST_CODE_CONTACTS_WRITE:
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(getActivity(), "WRITE_CONTACTS Permission Granted", Toast.LENGTH_SHORT)
-                            .show();
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
                 } else {
-                    Toast.makeText(getActivity(), "WRITE_CONTACTS Permission Denied", Toast.LENGTH_SHORT)
-                            .show();
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
                 }
                 break;
             case REQUEST_CODE_STORAGE_READ:
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(getActivity(), "STORAGE_READ Permission Granted", Toast.LENGTH_SHORT)
-                            .show();
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
                 } else {
-                    Toast.makeText(getActivity(), "STORAGE_READ Permission Denied", Toast.LENGTH_SHORT)
-                            .show();
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
                 }
                 break;
-            case REQUEST_CODE_STORAGE_WRITE:
+            case REQUEST_CODE_LOCATION_FINE:
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(getActivity(), "STORAGE_WRITE Permission Granted", Toast.LENGTH_SHORT)
-                            .show();
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
                 } else {
-                    Toast.makeText(getActivity(), "STORAGE_WRITE Permission Denied", Toast.LENGTH_SHORT)
-                            .show();
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
+                }
+                break;
+            case REQUEST_CODE_LOCATION_COARSE:
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
+                } else {
+                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
                 }
                 break;
             default:
