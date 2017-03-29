@@ -8,16 +8,44 @@ namespace SeansAndroidPermissions
     {
         private PermissionGranterProxy Granter;
 
-        public enum Role
+        // Request Codes
+        [HideInInspector]
+        public int REQUEST_CODE_CAMERA = 1;
+        [HideInInspector]
+        public int REQUEST_CODE_CONTACTS_READ = 2;
+        [HideInInspector]
+        public int REQUEST_CODE_CONTACTS_WRITE = 3;
+        [HideInInspector]
+        public int REQUEST_CODE_STORAGE_READ = 4;
+        [HideInInspector]
+        public int REQUEST_CODE_STORAGE_WRITE = 5;
+        [HideInInspector]
+        public int REQUEST_CODE_LOCATION_FINE = 6;
+        [HideInInspector]
+        public int REQUEST_CODE_LOCATION_COARSE = 7;
+
+        // Check a permission status of requestCode
+        public bool CheckPermissions(int requestCode)
         {
-            Read = 0,
-            Write = 1
+            if (!IsCompatible())
+                return false;
+
+            if (Granter == null)
+                Granter = new PermissionGranterProxy();
+
+            return Granter.CheckForPermission(requestCode);
         }
 
-        public enum Accuracy
+        // Request a permission of requestCode
+        public void RequestPermission(int requestCode)
         {
-            Fine = 0,
-            Coarse = 1
+            if (!IsCompatible())
+                return;
+
+            if (Granter == null)
+                Granter = new PermissionGranterProxy();
+
+            Granter.RequestPermission(requestCode);
         }
 
         // This is the callback from Requesting a permission.
@@ -26,86 +54,18 @@ namespace SeansAndroidPermissions
         {
             if (message.Contains("Granted"))
             {
-                // Do something.
+                // Permission was granted.
             }
             else if (message.Contains("Denied"))
             {
-                // Do something.
+                // Permission was denied.
             }
         }
 
-        public void RequestCameraPermission()
-        {
-            if (!IsCompatible())
-                return;
-
-            if (Granter == null)
-                Granter = new PermissionGranterProxy();
-
-            Granter.AskForCameraPermission();
-        }
-
-        public void RequestContactsPermission(Role role)
-        {
-            if (!IsCompatible())
-                return;
-
-            if (Granter == null)
-                Granter = new PermissionGranterProxy();
-
-            switch (role)
-            {
-                case Role.Read:
-                    Granter.AskForContactsReadPermission();
-                    break;
-                case Role.Write:
-                    Granter.AskForContactsWritePermission();
-                    break;
-            }
-        }
-
-        public void RequestStoragePermission(Role role)
-        {
-            if (!IsCompatible())
-                return;
-
-            if (Granter == null)
-                Granter = new PermissionGranterProxy();
-
-            switch (role)
-            {
-                case Role.Read:
-                    Granter.AskForStorageReadPermission();
-                    break;
-                case Role.Write:
-                    Granter.AskForStorageWritePermission();
-                    break;
-            }
-        }
-
-        public void RequestLocationPermission(Accuracy accuracy)
-        {
-            if (!IsCompatible())
-                return;
-
-            if (Granter == null)
-                Granter = new PermissionGranterProxy();
-
-            switch (accuracy)
-            {
-                case Accuracy.Fine:
-                    Granter.AskForLocationFinePermission();
-                    break;
-                case Accuracy.Coarse:
-                    Granter.AskForLocationCoarsePermission();
-                    break;
-            }
-        }
-
+        // Runtime permission granting is only accesible from devices with API 23 and up.
+        // You should already be performing this check on your own.
         public static bool IsCompatible()
         {
-            // Runtime permission granting is only accesible from devices with API 23 and up.
-
             var os = SystemInfo.operatingSystem;
 
             bool compatible;

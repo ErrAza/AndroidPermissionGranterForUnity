@@ -6,7 +6,7 @@ import android.app.Fragment;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import com.unity3d.player.UnityPlayer;
-import android.widget.Toast;
+import android.support.v4.content.ContextCompat;
 
 /**
  * Created by Sean on 3/28/2017.
@@ -43,96 +43,83 @@ public class PermissionGranter extends Fragment {
         setRetainInstance(true);
     }
 
-    public void requestCameraPermission()
+    public boolean checkPermission(int code)
     {
-        requestPermissions(new String[]{Manifest.permission.CAMERA},
-                REQUEST_CODE_CAMERA);
+        String perm = "";
+
+        switch (code)
+        {
+            case REQUEST_CODE_CAMERA:
+                perm = Manifest.permission.CAMERA;
+                break;
+            case REQUEST_CODE_CONTACTS_READ:
+                perm = Manifest.permission.READ_CONTACTS;
+                break;
+            case REQUEST_CODE_CONTACTS_WRITE:
+                perm = Manifest.permission.WRITE_CONTACTS;
+                break;
+            case REQUEST_CODE_STORAGE_READ:
+                perm = Manifest.permission.READ_EXTERNAL_STORAGE;
+                break;
+            case REQUEST_CODE_STORAGE_WRITE:
+                perm = Manifest.permission.WRITE_EXTERNAL_STORAGE;
+                break;
+            case REQUEST_CODE_LOCATION_FINE:
+                perm = Manifest.permission.ACCESS_FINE_LOCATION;
+                break;
+            case REQUEST_CODE_LOCATION_COARSE:
+                perm = Manifest.permission.ACCESS_COARSE_LOCATION;
+                break;
+            default:
+                break;
+        }
+
+        int perms = ContextCompat.checkSelfPermission(getContext(), perm);
+
+        return (perms == PackageManager.PERMISSION_GRANTED);
     }
 
-    public void requestContactsPermissionRead()
+    public void requestPermission(int code)
     {
-        requestPermissions(new String[]{Manifest.permission.READ_CONTACTS},
-                REQUEST_CODE_CONTACTS_READ);
-    }
+        String perm = "";
 
-    public void requestContactsPermissionWrite()
-    {
-        requestPermissions(new String[]{Manifest.permission.WRITE_CONTACTS},
-                REQUEST_CODE_CONTACTS_WRITE);
-    }
+        switch (code)
+        {
+            case REQUEST_CODE_CAMERA:
+                perm = Manifest.permission.CAMERA;
+                break;
+            case REQUEST_CODE_CONTACTS_READ:
+                perm = Manifest.permission.READ_CONTACTS;
+                break;
+            case REQUEST_CODE_CONTACTS_WRITE:
+                perm = Manifest.permission.WRITE_CONTACTS;
+                break;
+            case REQUEST_CODE_STORAGE_READ:
+                perm = Manifest.permission.READ_EXTERNAL_STORAGE;
+                break;
+            case REQUEST_CODE_STORAGE_WRITE:
+                perm = Manifest.permission.WRITE_EXTERNAL_STORAGE;
+                break;
+            case REQUEST_CODE_LOCATION_FINE:
+                perm = Manifest.permission.ACCESS_FINE_LOCATION;
+                break;
+            case REQUEST_CODE_LOCATION_COARSE:
+                perm = Manifest.permission.ACCESS_COARSE_LOCATION;
+                break;
+            default:
+                break;
+        }
 
-    public void requestStoragePermissionRead()
-    {
-        requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
-                REQUEST_CODE_STORAGE_READ);
-    }
-
-    public void requestStoragePermissionWrite()
-    {
-        requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
-                REQUEST_CODE_STORAGE_WRITE);
-
-    }
-
-    public void requestLocationFine()
-    {
-        requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
-                REQUEST_CODE_LOCATION_FINE);
-    }
-
-    public void requestLocationCoarse()
-    {
-        requestPermissions(new String[]{Manifest.permission.ACCESS_COARSE_LOCATION},
-                REQUEST_CODE_LOCATION_COARSE);
+        requestPermissions(new String[]{perm},
+                code);
     }
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        switch (requestCode) {
-            case REQUEST_CODE_CAMERA:
-                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
-                } else {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
-                }
-                break;
-            case REQUEST_CODE_CONTACTS_READ:
-                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
-                } else {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
-                }
-                break;
-            case REQUEST_CODE_CONTACTS_WRITE:
-                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
-                } else {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
-                }
-                break;
-            case REQUEST_CODE_STORAGE_READ:
-                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
-                } else {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
-                }
-                break;
-            case REQUEST_CODE_LOCATION_FINE:
-                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
-                } else {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
-                }
-                break;
-            case REQUEST_CODE_LOCATION_COARSE:
-                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
-                } else {
-                    UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
-                }
-                break;
-            default:
-                super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Granted");
+        } else {
+            UnityPlayer.UnitySendMessage(gameObjectName, "PermissionCallback", "Denied");
         }
     }
 }

@@ -15,81 +15,24 @@ namespace SeansAndroidPermissions
             _class.CallStatic("start", "Granter");
         }
 
-        // Requests CAMERA permission.
-        public void AskForCameraPermission()
+        public bool CheckForPermission(int requestCode)
         {
             if (_class == null)
             {
                 Initialize();
             }
 
-            Instance.Call("requestCameraPermission");
+            return Instance.Call<bool>("checkPermission", requestCode);
         }
 
-        // Requests READ_CONTACTS permission.
-        public void AskForContactsReadPermission()
+        public void RequestPermission(int requestCode)
         {
             if (_class == null)
             {
                 Initialize();
             }
 
-            Instance.Call("requestContactsPermissionRead");
-        }
-
-        // Requests WRITE_CONTACTS permission.
-        public void AskForContactsWritePermission()
-        {
-            if (_class == null)
-            {
-                Initialize();
-            }
-
-            Instance.Call("requestContactsPermissionWrite");
-        }
-
-        // Requests READ_EXTERNAL_STORAGE permission.
-        public void AskForStorageReadPermission()
-        {
-            if (_class == null)
-            {
-                Initialize();
-            }
-
-            Instance.Call("requestStoragePermissionRead");
-        }
-
-        // Requests WRITE_EXTERNAL_STORAGE permission.
-        public void AskForStorageWritePermission()
-        {
-            if (_class == null)
-            {
-                Initialize();
-            }
-
-            Instance.Call("requestStoragePermissionWrite");
-        }
-
-        // Requests ACCESS_FINE_LOCATION permission.
-        public void AskForLocationFinePermission()
-        {
-            if (_class == null)
-            {
-                Initialize();
-            }
-
-            Instance.Call("requestLocationFine");
-        }
-
-        // Requests ACCESS_COARSE_LOCATION permission.
-        public void AskForLocationCoarsePermission()
-        {
-            if (_class == null)
-            {
-                Initialize();
-            }
-
-            Instance.Call("requestLocationCoarse");
+            Instance.Call("requestPermission", requestCode);
         }
     }
 #endif

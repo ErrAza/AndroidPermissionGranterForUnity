@@ -8,39 +8,18 @@ public class Test : MonoBehaviour
 
     public UnityInterface obj;
 
-    public void Ask1()
+    public void Check()
     {
-        obj.RequestCameraPermission();
+        obj.RequestPermission(obj.REQUEST_CODE_CAMERA);
     }
 
-    public void Ask2()
+    public void Request()
     {
-        obj.RequestContactsPermission(UnityInterface.Role.Read);
+        bool test = obj.CheckPermissions(obj.REQUEST_CODE_CAMERA);
+
+        Debug.Log(test + " - " + " Permission");
     }
 
-    public void Ask3()
-    {
-        obj.RequestContactsPermission(UnityInterface.Role.Write);
-    }
 
-    public void Ask4()
-    {
-        obj.RequestStoragePermission(UnityInterface.Role.Read);
-    }
-
-    public void Ask5()
-    {
-        obj.RequestStoragePermission(UnityInterface.Role.Write);
-    }
-
-    public void Ask6()
-    {
-        obj.RequestLocationPermission(UnityInterface.Accuracy.Fine);
-    }
-
-    public void Ask7()
-    {
-        obj.RequestLocationPermission(UnityInterface.Accuracy.Coarse);
-    }
 
 }
