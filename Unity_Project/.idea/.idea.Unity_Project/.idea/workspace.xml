@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55bed2ed-9bf6-4a0d-a7d0-ad70643043b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Unity_Plugin/SeansAndroidPermissions.unitypackage" afterPath="$PROJECT_DIR$/../Unity_Plugin/SeansAndroidPermissions.unitypackage" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/lib/SeansAndroidPermissions.aar" afterPath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/lib/SeansAndroidPermissions.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/LastBuild.buildreport" afterPath="$PROJECT_DIR$/Library/LastBuild.buildreport" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/assetDatabase3" afterPath="$PROJECT_DIR$/Library/assetDatabase3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000006100000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000b000000000000000" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/3e/3ef5b3d0acd79c3499f502f1b991678a" afterPath="$PROJECT_DIR$/Library/metadata/3e/3ef5b3d0acd79c3499f502f1b991678a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/3e/3ef5b3d0acd79c3499f502f1b991678a.info" afterPath="$PROJECT_DIR$/Library/metadata/3e/3ef5b3d0acd79c3499f502f1b991678a.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/5d/5d3f8fc618dbb494fa6f028575220077" afterPath="$PROJECT_DIR$/Library/metadata/5d/5d3f8fc618dbb494fa6f028575220077" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/95/952ede3f33853b24b98789e6bef75ca6" afterPath="$PROJECT_DIR$/Library/metadata/95/952ede3f33853b24b98789e6bef75ca6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/metadata/b6/b6319f12c3764004aad5710ce768ba57" afterPath="$PROJECT_DIR$/Library/metadata/b6/b6319f12c3764004aad5710ce768ba57" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.apk" afterPath="$PROJECT_DIR$/build.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Android_Project/plugin/src/main/java/com/seanix/sean/plugin/PermissionGranter.java" afterPath="$PROJECT_DIR$/../Android_Project/plugin/src/main/java/com/seanix/sean/plugin/PermissionGranter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Project/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Project/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AssetStoreTools/Editor/AssetStoreTools.dll.meta" afterPath="$PROJECT_DIR$/Assets/AssetStoreTools/Editor/AssetStoreTools.dll.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/AssetStoreTools/Editor/AssetStoreToolsExtra.dll.meta" afterPath="$PROJECT_DIR$/Assets/AssetStoreTools/Editor/AssetStoreToolsExtra.dll.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs" afterPath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs" afterPath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Test.cs" afterPath="$PROJECT_DIR$/Assets/Test.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/AssetImportState" afterPath="$PROJECT_DIR$/Library/AssetImportState" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,23 +20,23 @@
       <file leaf-file-name="Test.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <marker date="1490797672034" expanded="true" signature="6:109" ph="..." />
-                <marker date="1490797672034" expanded="true" signature="144:432" ph="{...}" />
-                <marker date="1490797672034" expanded="true" signature="203:271" ph="{...}" />
-                <marker date="1490797672034" expanded="true" signature="298:427" ph="{...}" />
+                <marker date="1490859955621" expanded="true" signature="6:49" ph="..." />
+                <marker date="1490859955621" expanded="true" signature="85:373" ph="{...}" />
+                <marker date="1490859955621" expanded="true" signature="144:212" ph="{...}" />
+                <marker date="1490859955621" expanded="true" signature="239:368" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnityInterface.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UnityInterface.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="60">
+              <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
               <folding>
                 <marker date="1490797992260" expanded="true" signature="53:2692" ph="{...}" />
                 <marker date="1490797992260" expanded="true" signature="212:2683" ph="{...}" />
@@ -81,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermissionGranterProxy.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PermissionGranterProxy.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <marker date="1490797505280" expanded="true" signature="53:1102" ph="{...}" />
                 <marker date="1490797505280" expanded="true" signature="277:1093" ph="{...}" />
@@ -111,8 +87,8 @@
         <option value="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/PermissionGranterProxy.cs" />
         <option value="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/UnityInterface.cs" />
         <option value="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Test.cs" />
         <option value="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Test.cs" />
       </list>
     </option>
   </component>
@@ -161,6 +137,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unity_Project (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sean'sAndroidPermissions" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,11 +262,12 @@
       <workItem from="1490777810555" duration="4028000" />
       <workItem from="1490787434761" duration="1366000" />
       <workItem from="1490794346836" duration="2681000" />
+      <workItem from="1490859871287" duration="605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8075000" />
+    <option name="totallyTimeSpent" value="8680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,11 +284,11 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -317,13 +320,65 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1490859955621" expanded="true" signature="6:49" ph="..." />
+            <marker date="1490859955621" expanded="true" signature="85:373" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="144:212" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="239:368" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1490797505280" expanded="true" signature="53:1102" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="277:1093" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="461:619" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="676:859" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="718:776" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="915:1087" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="957:1015" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <marker date="1490797992260" expanded="true" signature="53:2692" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="212:2683" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="933:1167" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="1270:1490" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
+            <marker date="1490797992260" expanded="true" signature="1692:1947" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="1747:1818" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="1867:1937" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="1957:2106" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
+            <marker date="1490797992260" expanded="true" signature="2148:2677" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="2277:2340" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="2384:2447" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="2491:2554" ph="{...}" />
+            <marker date="1490797992260" expanded="true" signature="2571:2635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
-            <marker date="1490797672034" expanded="true" signature="6:109" ph="..." />
-            <marker date="1490797672034" expanded="true" signature="144:432" ph="{...}" />
-            <marker date="1490797672034" expanded="true" signature="203:271" ph="{...}" />
-            <marker date="1490797672034" expanded="true" signature="298:427" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="6:49" ph="..." />
+            <marker date="1490859955621" expanded="true" signature="85:373" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="144:212" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="239:368" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -372,10 +427,10 @@
         <state relative-caret-position="180">
           <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
-            <marker date="1490797672034" expanded="true" signature="6:109" ph="..." />
-            <marker date="1490797672034" expanded="true" signature="144:432" ph="{...}" />
-            <marker date="1490797672034" expanded="true" signature="203:271" ph="{...}" />
-            <marker date="1490797672034" expanded="true" signature="298:427" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="6:49" ph="..." />
+            <marker date="1490859955621" expanded="true" signature="85:373" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="144:212" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="239:368" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -405,39 +460,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/PermissionGranterProxy.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/UnityInterface.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1490797505280" expanded="true" signature="53:1102" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="277:1093" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="461:619" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="676:859" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="718:776" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="915:1087" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="957:1015" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <marker date="1490797672034" expanded="true" signature="6:109" ph="..." />
-            <marker date="1490797672034" expanded="true" signature="144:432" ph="{...}" />
-            <marker date="1490797672034" expanded="true" signature="203:271" ph="{...}" />
-            <marker date="1490797672034" expanded="true" signature="298:427" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="6:49" ph="..." />
+            <marker date="1490859955621" expanded="true" signature="85:373" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="144:212" ph="{...}" />
+            <marker date="1490859955621" expanded="true" signature="239:368" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        <state relative-caret-position="60">
+          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
           <folding>
             <marker date="1490797992260" expanded="true" signature="53:2692" ph="{...}" />
             <marker date="1490797992260" expanded="true" signature="212:2683" ph="{...}" />
@@ -453,6 +492,22 @@
             <marker date="1490797992260" expanded="true" signature="2384:2447" ph="{...}" />
             <marker date="1490797992260" expanded="true" signature="2491:2554" ph="{...}" />
             <marker date="1490797992260" expanded="true" signature="2571:2635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1490797505280" expanded="true" signature="53:1102" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="277:1093" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="461:619" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="676:859" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="718:776" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="915:1087" ph="{...}" />
+            <marker date="1490797505280" expanded="true" signature="957:1015" ph="{...}" />
           </folding>
         </state>
       </provider>

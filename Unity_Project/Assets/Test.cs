@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using SeansAndroidPermissions;
+﻿using SeansAndroidPermissions;
 using UnityEngine;
+
 
 public class Test : MonoBehaviour
 {
