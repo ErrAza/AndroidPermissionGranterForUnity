@@ -31,3 +31,5 @@ Quick And Easy Guide on how to make use of this plugin:
 		- Storage (Read / Write)
 		- Location (Fine / Coarse)
 
+- Sean.
+

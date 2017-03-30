@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55bed2ed-9bf6-4a0d-a7d0-ad70643043b4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Test.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Test.cs.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/lib/SeansAndroidPermissions.aar" afterPath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/lib/SeansAndroidPermissions.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Android_Project/plugin/src/main/java/com/seanix/sean/plugin/PermissionGranter.java" afterPath="$PROJECT_DIR$/../Android_Project/plugin/src/main/java/com/seanix/sean/plugin/PermissionGranter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Unity_Project/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Unity_Project/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Test.cs" afterPath="$PROJECT_DIR$/Assets/Test.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Docs/Guide.txt" afterPath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Docs/Guide.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs" afterPath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs" afterPath="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,59 +24,60 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <marker date="1490859955621" expanded="true" signature="6:49" ph="..." />
-                <marker date="1490859955621" expanded="true" signature="85:373" ph="{...}" />
-                <marker date="1490859955621" expanded="true" signature="144:212" ph="{...}" />
-                <marker date="1490859955621" expanded="true" signature="239:368" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnityInterface.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UnityInterface.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            <state relative-caret-position="150">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
-                <marker date="1490797992260" expanded="true" signature="53:2692" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="212:2683" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="933:1167" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="1270:1490" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
-                <marker date="1490797992260" expanded="true" signature="1692:1947" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="1747:1818" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="1867:1937" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="1957:2106" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
-                <marker date="1490797992260" expanded="true" signature="2148:2677" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="2277:2340" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="2384:2447" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="2491:2554" ph="{...}" />
-                <marker date="1490797992260" expanded="true" signature="2571:2635" ph="{...}" />
+                <marker date="1490863776826" expanded="true" signature="53:2611" ph="{...}" />
+                <marker date="1490863776826" expanded="true" signature="212:2602" ph="{...}" />
+                <marker date="1490863776826" expanded="true" signature="933:1167" ph="{...}" />
+                <marker date="1490863776826" expanded="true" signature="1270:1490" ph="{...}" />
+                <marker date="1490863776826" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
+                <marker date="1490863776826" expanded="true" signature="1691:1930" ph="{...}" />
+                <marker date="1490863776826" expanded="true" signature="1738:1809" ph="{...}" />
+                <marker date="1490863776826" expanded="true" signature="1850:1920" ph="{...}" />
+                <marker date="1490863776826" expanded="true" signature="1940:2089" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
+                <marker date="1490863776826" expanded="true" signature="2124:2332" ph="{...}" />
+                <marker date="1490863776826" expanded="true" signature="2442:2596" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermissionGranterProxy.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PermissionGranterProxy.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="163" lean-forward="false" selection-start-line="4" selection-start-column="163" selection-end-line="4" selection-end-column="163" />
               <folding>
-                <marker date="1490797505280" expanded="true" signature="53:1102" ph="{...}" />
-                <marker date="1490797505280" expanded="true" signature="277:1093" ph="{...}" />
-                <marker date="1490797505280" expanded="true" signature="461:619" ph="{...}" />
-                <marker date="1490797505280" expanded="true" signature="676:859" ph="{...}" />
-                <marker date="1490797505280" expanded="true" signature="718:776" ph="{...}" />
-                <marker date="1490797505280" expanded="true" signature="915:1087" ph="{...}" />
-                <marker date="1490797505280" expanded="true" signature="957:1015" ph="{...}" />
+                <marker date="1490861531600" expanded="true" signature="53:1305" ph="{...}" />
+                <marker date="1490861531600" expanded="true" signature="277:1296" ph="{...}" />
+                <marker date="1490861531600" expanded="true" signature="461:619" ph="{...}" />
+                <marker date="1490861531600" expanded="true" signature="676:859" ph="{...}" />
+                <marker date="1490861531600" expanded="true" signature="718:776" ph="{...}" />
+                <marker date="1490861531600" expanded="true" signature="915:1087" ph="{...}" />
+                <marker date="1490861531600" expanded="true" signature="957:1015" ph="{...}" />
+                <marker date="1490861531600" expanded="true" signature="1123:1290" ph="{...}" />
+                <marker date="1490861531600" expanded="true" signature="1165:1223" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Example/Example.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <folding>
+                <marker date="1490863909208" expanded="true" signature="6:90" ph="..." />
+                <marker date="1490863909208" expanded="true" signature="133:682" ph="{...}" />
+                <marker date="1490863909208" expanded="true" signature="176:680" ph="{...}" />
+                <marker date="1490863909208" expanded="true" signature="308:388" ph="{...}" />
+                <marker date="1490863909208" expanded="true" signature="417:545" ph="{...}" />
+                <marker date="1490863909208" expanded="true" signature="577:674" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,8 +95,9 @@
         <option value="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/PermissionGranterProxy.cs" />
         <option value="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/UnityInterface.cs" />
         <option value="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs" />
         <option value="$PROJECT_DIR$/Assets/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Example/Example.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs" />
       </list>
     </option>
   </component>
@@ -99,10 +108,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -262,12 +271,12 @@
       <workItem from="1490777810555" duration="4028000" />
       <workItem from="1490787434761" duration="1366000" />
       <workItem from="1490794346836" duration="2681000" />
-      <workItem from="1490859871287" duration="605000" />
+      <workItem from="1490859871287" duration="3792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8680000" />
+    <option name="totallyTimeSpent" value="11867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,7 +288,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -318,16 +327,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Example.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1490859955621" expanded="true" signature="6:49" ph="..." />
-            <marker date="1490859955621" expanded="true" signature="85:373" ph="{...}" />
-            <marker date="1490859955621" expanded="true" signature="144:212" ph="{...}" />
-            <marker date="1490859955621" expanded="true" signature="239:368" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -336,13 +340,15 @@
         <state relative-caret-position="240">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1490797505280" expanded="true" signature="53:1102" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="277:1093" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="461:619" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="676:859" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="718:776" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="915:1087" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="957:1015" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="53:1305" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="277:1296" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="461:619" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="676:859" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="718:776" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="915:1087" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="957:1015" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="1123:1290" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="1165:1223" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -352,34 +358,26 @@
         <state relative-caret-position="240">
           <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding>
-            <marker date="1490797992260" expanded="true" signature="53:2692" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="212:2683" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="933:1167" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1270:1490" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
-            <marker date="1490797992260" expanded="true" signature="1692:1947" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1747:1818" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1867:1937" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1957:2106" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
-            <marker date="1490797992260" expanded="true" signature="2148:2677" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2277:2340" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2384:2447" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2491:2554" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2571:2635" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="53:2611" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="212:2602" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="933:1167" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1270:1490" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
+            <marker date="1490863776826" expanded="true" signature="1691:1930" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1738:1809" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1850:1920" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1940:2089" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
+            <marker date="1490863776826" expanded="true" signature="2124:2332" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="2442:2596" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Example.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <marker date="1490859955621" expanded="true" signature="6:49" ph="..." />
-            <marker date="1490859955621" expanded="true" signature="85:373" ph="{...}" />
-            <marker date="1490859955621" expanded="true" signature="144:212" ph="{...}" />
-            <marker date="1490859955621" expanded="true" signature="239:368" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -388,20 +386,17 @@
         <state relative-caret-position="285">
           <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
-            <marker date="1490797992260" expanded="true" signature="53:2692" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="212:2683" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="933:1167" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1270:1490" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
-            <marker date="1490797992260" expanded="true" signature="1692:1947" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1747:1818" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1867:1937" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1957:2106" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
-            <marker date="1490797992260" expanded="true" signature="2148:2677" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2277:2340" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2384:2447" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2491:2554" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2571:2635" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="53:2611" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="212:2602" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="933:1167" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1270:1490" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
+            <marker date="1490863776826" expanded="true" signature="1691:1930" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1738:1809" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1850:1920" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1940:2089" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
+            <marker date="1490863776826" expanded="true" signature="2124:2332" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="2442:2596" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -411,27 +406,24 @@
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1490797505280" expanded="true" signature="53:1102" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="277:1093" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="461:619" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="676:859" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="718:776" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="915:1087" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="957:1015" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="53:1305" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="277:1296" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="461:619" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="676:859" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="718:776" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="915:1087" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="957:1015" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="1123:1290" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="1165:1223" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Example.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <marker date="1490859955621" expanded="true" signature="6:49" ph="..." />
-            <marker date="1490859955621" expanded="true" signature="85:373" ph="{...}" />
-            <marker date="1490859955621" expanded="true" signature="144:212" ph="{...}" />
-            <marker date="1490859955621" expanded="true" signature="239:368" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -440,74 +432,80 @@
         <state relative-caret-position="1860">
           <caret line="124" column="16" lean-forward="true" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
           <folding>
-            <marker date="1490797992260" expanded="true" signature="53:2692" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="212:2683" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="933:1167" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1270:1490" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
-            <marker date="1490797992260" expanded="true" signature="1692:1947" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1747:1818" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1867:1937" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1957:2106" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
-            <marker date="1490797992260" expanded="true" signature="2148:2677" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2277:2340" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2384:2447" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2491:2554" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2571:2635" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="53:2611" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="212:2602" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="933:1167" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1270:1490" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
+            <marker date="1490863776826" expanded="true" signature="1691:1930" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1738:1809" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1850:1920" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1940:2089" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
+            <marker date="1490863776826" expanded="true" signature="2124:2332" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="2442:2596" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/PermissionGranterProxy.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/UnityInterface.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Test.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Example.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <marker date="1490859955621" expanded="true" signature="6:49" ph="..." />
-            <marker date="1490859955621" expanded="true" signature="85:373" ph="{...}" />
-            <marker date="1490859955621" expanded="true" signature="144:212" ph="{...}" />
-            <marker date="1490859955621" expanded="true" signature="239:368" ph="{...}" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Example/Example.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        <state relative-caret-position="90">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
-            <marker date="1490797992260" expanded="true" signature="53:2692" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="212:2683" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="933:1167" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1270:1490" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
-            <marker date="1490797992260" expanded="true" signature="1692:1947" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1747:1818" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1867:1937" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="1957:2106" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
-            <marker date="1490797992260" expanded="true" signature="2148:2677" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2277:2340" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2384:2447" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2491:2554" ph="{...}" />
-            <marker date="1490797992260" expanded="true" signature="2571:2635" ph="{...}" />
+            <marker date="1490863909208" expanded="true" signature="6:90" ph="..." />
+            <marker date="1490863909208" expanded="true" signature="133:682" ph="{...}" />
+            <marker date="1490863909208" expanded="true" signature="176:680" ph="{...}" />
+            <marker date="1490863909208" expanded="true" signature="308:388" ph="{...}" />
+            <marker date="1490863909208" expanded="true" signature="417:545" ph="{...}" />
+            <marker date="1490863909208" expanded="true" signature="577:674" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/PermissionGranterProxy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="163" lean-forward="false" selection-start-line="4" selection-start-column="163" selection-end-line="4" selection-end-column="163" />
           <folding>
-            <marker date="1490797505280" expanded="true" signature="53:1102" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="277:1093" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="461:619" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="676:859" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="718:776" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="915:1087" ph="{...}" />
-            <marker date="1490797505280" expanded="true" signature="957:1015" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="53:1305" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="277:1296" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="461:619" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="676:859" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="718:776" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="915:1087" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="957:1015" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="1123:1290" ph="{...}" />
+            <marker date="1490861531600" expanded="true" signature="1165:1223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sean'sAndroidPermissions/Scripts/UnityInterface.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <marker date="1490863776826" expanded="true" signature="53:2611" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="212:2602" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="933:1167" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1270:1490" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1500:1637" ph="/* This is the callback from Requesting a permission. ... */" />
+            <marker date="1490863776826" expanded="true" signature="1691:1930" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1738:1809" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1850:1920" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="1940:2089" ph="/* Runtime permission granting is only accesible from devices with API 23 and up. ... */" />
+            <marker date="1490863776826" expanded="true" signature="2124:2332" ph="{...}" />
+            <marker date="1490863776826" expanded="true" signature="2442:2596" ph="{...}" />
           </folding>
         </state>
       </provider>

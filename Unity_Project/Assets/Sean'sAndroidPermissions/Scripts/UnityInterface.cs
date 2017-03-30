@@ -50,13 +50,13 @@ namespace SeansAndroidPermissions
 
         // This is the callback from Requesting a permission.
         // 'message' will either return as 'Granted' or 'Denied' after calling Ask.
-        public void PermissionCallback(string message)
+        public void PermissionCallback(string result)
         {
-            if (message.Contains("Granted"))
+            if (result == "Granted")
             {
                 // Permission was granted.
             }
-            else if (message.Contains("Denied"))
+            else if (result == "Denied")
             {
                 // Permission was denied.
             }
@@ -64,30 +64,23 @@ namespace SeansAndroidPermissions
 
         // Runtime permission granting is only accesible from devices with API 23 and up.
         // You should already be performing this check on your own.
-        public static bool IsCompatible()
+        public bool IsCompatible()
         {
-            var os = SystemInfo.operatingSystem;
+            if (Granter == null)
+                Granter = new PermissionGranterProxy();
 
-            bool compatible;
+            var versionNumber = Granter.GetSdkVersion();
 
-            if (os.Contains("API-25"))
-            {
-                compatible = true;
-            }
-            else if (os.Contains("API-24"))
-            {
-                compatible = true;
-            }
-            else if (os.Contains("API-23"))
-            {
-                compatible = true;
-            }
-            else
-            {
-                compatible = false;
-            }
+            return versionNumber >= 23;
+        }
 
-            return compatible;
+        // Retrieve the SDK version number of the device.], from the API.
+        public int GetSdkVersion()
+        {
+            if (Granter == null)
+                Granter = new PermissionGranterProxy();
+
+            return Granter.GetSdkVersion();
         }
     }
 #endif

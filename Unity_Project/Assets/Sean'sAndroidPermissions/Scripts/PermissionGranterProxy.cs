@@ -34,6 +34,16 @@ namespace SeansAndroidPermissions
 
             Instance.Call("requestPermission", requestCode);
         }
+
+        public int GetSdkVersion()
+        {
+            if (_class == null)
+            {
+                Initialize();
+            }
+
+            return Instance.Call<int>("getSdkVersion");
+        }
     }
 #endif
 }

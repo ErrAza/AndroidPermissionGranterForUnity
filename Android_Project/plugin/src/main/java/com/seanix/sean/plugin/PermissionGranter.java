@@ -4,6 +4,7 @@ import android.Manifest;
 import android.annotation.TargetApi;
 import android.app.Fragment;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import com.unity3d.player.UnityPlayer;
 import android.support.v4.content.ContextCompat;
@@ -41,6 +42,11 @@ public class PermissionGranter extends Fragment {
     {
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
+    }
+
+    public int getSdkVersion()
+    {
+        return Build.VERSION.SDK_INT;
     }
 
     public boolean checkPermission(int code)
